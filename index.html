@@ -6,13 +6,35 @@
 
 <style type="text/css">
 
-select {
-    width: 180px;
-    height: 240px;
-    font-size: 16px;
-    background-color: #7dff51;
-}
+    *{
+        padding:0;
+        margin:0;
 
+    }
+
+    .box {
+        width:500px;
+        margin: 200px auto;
+    }
+
+    ul{
+        width: 392px;
+        padding: 5px;
+        list-style: none;
+        border: 1px solid red;
+    }
+
+    li:hover {
+        background-color: red;
+    }
+
+    input {
+        width: 400px;
+    }
+
+    button {
+        width: 70px;
+    }
 
 </style>
 
@@ -21,79 +43,49 @@ select {
 </head>
 <body>
 
-<select name="" size="10" id="sel1" multiple>
-    <option value="">111</option>
-    <option value="">222</option>
-    <option value="">333</option>
-    <option value="">444</option>
-</select>
+<div class="box">
+    <input type="text"/>
+    <button>搜索</button>
+</div>
 
-<button>1</button>
-<button>2</button>
-<button>3</button>
-<button>4</button>
-
-<select name="" size="10" id="sel2" multiple></select>
 
 <script src="tools.js"></script>
 
 <script>
 
-var sel1 = document.getElementById("sel1");
-var sel2 = document.getElementById("sel2");
+ var arr = ["a","ab","abc","abcd","aa"];
+ var box = document.getElementsByTagName("div")[0];
+var inp = box.children[0];
 
-var btnArr = document.getElementsByTagName("button");
+inp.onkeyup = function () {
+    var newArr = [];
 
-    btnArr[0].onclick = function () {
-    var arr = sel1.children;
-    for (var i=arr.length-1;i>=0;i--){
-
-        sel2.appendChild(arr[arr.length-1-i]);
-    }
-
-
-}
-
-btnArr[1].onclick = function () {
-
-    var arr = sel2.children;
-    for (var i=arr.length-1;i>=0;i--){
-
-        sel1.appendChild(arr[arr.length-1-i]);
-    }
-
-}
-
-btnArr[2].onclick = function () {
-    var arr = sel1.children;
-
-    for (var i=arr.length-1;i>=0;i--){
-        if(arr[i].selected === true){
-            sel2.appendChild(arr[arr.length-1-i]);
+    for(var i=0;i<arr.length;i++){
+        var val = this.value;
+        if(arr[i].indexOf(val)===0){
+            newArr.push("<li>"+arr[i]+"</li>")
         }
+
     }
-}
 
+    var str = newArr.join("");
 
-btnArr[3].onclick = function () {
-    var arr = sel2.children;
-
-    for (var i=arr.length-1;i>=0;i--){
-        if(arr[i].selected === true){
-            sel1.appendChild(arr[i]);
-        }
+    if(box.children[2]){
+        box.removeChild(box.children[2]);
     }
-}
 
-function fn1(ele1,ele2) {
-    var arr = ele1.children;
-    for(var i=arr.length-1;i>=0;i--){
-        ele2.appendChild(arr[0]);
+    if(this.value.length === 0||newArr.length === 0){
+        return;
     }
+
+    var ul = document.createElement("ul");
+    ul.innerHTML = str;
+    box.appendChild(ul);
+
+
+
+
 }
-
-
-
 
 
 </script>
