@@ -6,39 +6,122 @@
 
 <style type="text/css">
 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: black;
+    }
+
+    .box {
+        width: 800px;
+        height: 42px;
+        background: #fff url("images/wifi.png") right center no-repeat;
+        margin: 200px auto;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    ul {
+        list-style: none;
+        position: absolute;
+    }
+
+    li{
+        float: left;
+        width: 83px;
+        height: 42px;
+        text-align: center;
+        font: 500 16px/42px "simsun";
+        cursor: pointer;
+    }
+
+    span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 83px;
+        height: 42px;
+        background: url("images/cloud.gif") no-repeat;
+    }
 
 
 </style>
 
 
-
 </head>
+
 <body>
 
-<table>
-    <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-    </tr>
-</table>
+<div class="box"><span></span>
+    <ul>
+        <li>123</li>
+        <li>456</li>
+        <li>789</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+    </ul>
+</div>
 
-<script src="tools.js"></script>
 
 <script>
 
-var tab = document.getElementsByTagName("table")[0];
+    window.onload = function () {
 
-var tr = document.createElement("tr");
-var aaa = tab.insertRow(0);
+        var liArr = document.getElementsByTagName("li");
+        var span = document.getElementsByTagName("span")[0];
 
-tab.deleteRow(2);
+        var liWidth = liArr[0].offsetWidth;
 
-var ce = tab.children[0].cells;
+        var count = 0;
 
-ce.children[0].insertCell(0);
 
+        for (var i=0;i<liArr.length;i++){
+
+            liArr[i].index = i;
+
+            liArr[i].onmouseover = function () {
+
+                animate(span,this.index*liWidth);
+                // count = this.index;
+                // animate(span,count*l-=Width);
+
+            }
+
+            liArr[i].onmouseout = function () {
+                animate(span,count*liWidth);
+
+            }
+
+            liArr[i].onclick = function () {
+                count = this.index;
+                animate(span,count*liWidth);
+            }
+
+        }
+
+
+        function animate(ele,target) {
+            clearInterval(ele.timer);
+            ele.timer = setInterval(function () {
+                var step = (target - ele.offsetLeft)/10;
+                step = step>0?Math.ceil(step):Math.floor(step);
+                ele.style.left = ele.offsetLeft + step + "px";
+                if(Math.abs(target - ele.offsetLeft)<Math.abs(step)){
+                    ele.style.left = target + "px";
+                    clearInterval(ele.timer);
+                }
+            },18);
+
+
+        }
+
+    }
 
 
 
@@ -46,8 +129,6 @@ ce.children[0].insertCell(0);
 
 
 </body>
-
-
 
 
 </html>

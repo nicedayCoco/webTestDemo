@@ -2,6 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4fcb88-fb7e-4653-80b6-382b2bf36ff2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/image/0f000PC3L7v5WMl_8bcCX6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/bg.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/bpic_1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/cloud.gif" afterPath="$PROJECT_DIR$/images/cloud.gif" />
+      <change beforePath="$PROJECT_DIR$/image/content.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/content_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/lb1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/lb2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/lb3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/lb4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/lb5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/main.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/mm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/nav.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/rss.png" afterPath="$PROJECT_DIR$/images/wifi.png" />
+      <change beforePath="$PROJECT_DIR$/image/taobao.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/tianshi.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/tip1_c.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/tip1_f.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/tip1_h.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/xiaoniao.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/百度换肤.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,14 +52,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="556">
+              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wifi.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/wifi.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloud.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/cloud.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -45,10 +96,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="y" value="26" />
-    <option name="width" value="1005" />
-    <option name="height" value="790" />
+    <option name="x" value="843" />
+    <option name="y" value="23" />
+    <option name="width" value="1073" />
+    <option name="height" value="887" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -65,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -73,11 +128,15 @@
               <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -85,6 +144,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,27 +178,30 @@
       <option name="presentableId" value="Default" />
       <updated>1521687221354</updated>
       <workItem from="1521687223761" duration="18000" />
-      <workItem from="1521687438386" duration="9016000" />
+      <workItem from="1521687438386" duration="32326000" />
+      <workItem from="1522313575963" duration="9990000" />
+      <workItem from="1522461755735" duration="22375000" />
+      <workItem from="1523153787090" duration="13307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9034000" />
+    <option name="totallyTimeSpent" value="78016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="951" y="26" width="1005" height="790" extended-state="0" />
+    <frame x="843" y="23" width="1073" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1416589" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.50326186" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4967381" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -153,11 +222,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -168,10 +267,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/03.jpg" />
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/02.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/01.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/04.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/05.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/cloud.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/wifi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="556">
+          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
           <folding />
         </state>
       </provider>
