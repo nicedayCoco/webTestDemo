@@ -6,56 +6,41 @@
 
 <style type="text/css">
 
-/**{*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-/*}*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
-    /*img {*/
-        /*vertical-align: top;*/
+    /*body,html {*/
+        /*height: 100%;*/
     /*}*/
 
-    /*.main {*/
-        /*margin: 0 auto;*/
-        /*width: 1000px;*/
-        /*margin-top: 10px;*/
-    /*}*/
+    ul{
+        list-style: none;
+        height: 100%;
+    }
 
-    /*#Q-nav1 {*/
-        /*overflow: hidden;*/
-    /*}*/
+    ul li{
+        height: 100%;
+    }
 
-    /*.fixed {*/
-        /*position: fixed;*/
-        /*top: 0;*/
-        /*left: 0;*/
-    /*}*/
+    ol {
+        list-style: none;
+        position: fixed;
+        top: 80px;
+        left: 50px;
+    }
 
-* {
-    margin: 0;
-    padding: 0
-}
+    ol li{
+        width: 50px;
+        height: 50px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 50px;
+        margin-top: -1px;
+        cursor: pointer;
+    }
 
-img {
-    vertical-align: top;
-}
-
-.main {
-    margin: 0 auto;
-    width: 1000px;
-    margin-top: 10px;
-
-}
-
-#Q-nav1 {
-    overflow: hidden;
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
 </style>
 
 
@@ -63,131 +48,114 @@ img {
 
 <body>
 
-<div class="top" id="top">
-    <img src="images/top.png" alt="">
-</div>
-<div id="Q-nav1">
-    <img src="images/nav.png" alt="">
-</div>
-<div class="main" id="main">
-    <img src="images/main.png" alt="">
-</div>
+<ul>
+    <li>123321</li>
+    <li>123321</li>
+    <li>123321</li>
+    <li>123321</li>
+    <li>123321</li>
+</ul>
 
+<ol>
+    <li>12333</li>
+    <li>12333</li>
+    <li>12333</li>
+    <li>12333</li>
+    <li>12333</li>
+</ol>
 
-<!--<div class="top" id="top">-->
-    <!--<img src="images/top.png" alt=""/>-->
-<!--</div>-->
-<!--<div id="Q-nav1">-->
-    <!--<img src="images/nav.png" alt=""/>-->
-<!--</div>-->
-<!--<div class="main" id="main">-->
-    <!--<img src="images/main.png" alt=""/>-->
-<!--</div>-->
 
 
 <script>
-    window.onload = function () {
 
 
-        // var topDiv = document.getElementById("top");
-        // var height = topDiv.offsetHeight;
-        // var middle = document.getElementById("Q-nav1");
-        // var main = document.getElementById("main");
+    //0.获取元素
+    var ul = document.getElementsByTagName("ul")[0];
+    var ol = document.getElementsByTagName("ol")[0];
+    var ulLiArr = ul.children;
+    var olLiArr = ol.children;
+
+    var target = 0;var leader = 0;var timer = null;
+    //1.指定ul和ol中的li的背景色，对应的li背景色相同
+    //设置一个数组，里面装颜色，然指定的颜色给数组中的指定元素
+    var arrColor = ["pink","blue","yellow","orange","green"];
+    //利用for循环给两个数组的元素上色
+    for(var i=0;i<arrColor.length;i++){
+        //上色
+        ulLiArr[i].style.backgroundColor = arrColor[i];
+        olLiArr[i].style.backgroundColor = arrColor[i];
 
 
-        var topDiv = document.getElementById("top");
-        var height = topDiv.offsetHeight;
-        var middle = document.getElementById("Q-nav1");
-        var main = document.getElementById("main");
+        //属性绑定索引值
+        olLiArr[i].index = i;
+        //2.老三步。(并绑定事件)循环绑定，为每一个li绑定点击事件
+        olLiArr[i].onclick = function () {
+            //***获取目标位置
+            //获取索引值。
+            target = ulLiArr[this.index].offsetTop;
 
-        window.onscroll = function () {
-
-            if (scroll().top > height) {
-
-                middle.className += " fixed";
-                main.style.paddingTop = middle.offsetHeight+"px";
-
-            } else {
-                middle.className = "";
-                main.style.paddingTop = 0;
-            }
-
+            //要用定时器，先清除定时器
+            clearInterval(timer);
+            //3.利用缓动动画原理实现屏幕滑动
+            timer = setInterval(function () {
+                //(1).获取步长
+                var step = (target-leader)/10;
+                //(2).二次处理步长
+                step = step>0?Math.ceil(step):Math.floor(step);
+                //(3).屏幕滑动
+                leader = leader + step;
+                window.scrollTo(0,leader);
+                //(4).清除定时器
+                if(Math.abs(target-leader)<=Math.abs(step)){
+                    window.scrollTo(0,target);
+                    clearInterval(timer);
+                }
+            },25);
         }
+    }
 
-        // window.onscroll = function () {
-        //     //2.判断 ，被卷曲的头部的大小
-        //     if(scroll().top > height){
-        //         //3.满足条件添加类，否则删除类
-        //         middle.className += " fixed";
-        //         //第二个盒子不占位置了，所以我们给第三个盒子一个上padding占位置，不出现盒子抖动问题
-        //         main.style.paddingTop = middle.offsetHeight+"px";
-        //     }else{
-        //         middle.className = "";
-        //         //清零
-        //         main.style.paddingTop = 0;
-        //     }
-        // }
+    //4.用scroll事件模拟盒子距离最顶端的距离。
+    window.onscroll = function () {
+        //每次屏幕滑动，把屏幕卷去的头部赋值给leader,模拟获取显示区域距离顶部的距离
+        leader = scroll().top;
+    }
 
 
-        // //     1.老三步。
-        //     var topDiv = document.getElementById("top");
-        //     var height = topDiv.offsetHeight;
-        //     var middle = document.getElementById("Q-nav1");
-        //     var main = document.getElementById("main");
-        //
-        //     window.onscroll = function () {
-        //         //2.判断 ，被卷曲的头部的大小
-        //         if(scroll().top > height){
-        //             //3.满足条件添加类，否则删除类
-        //             middle.className += " fixed";
-        //             //第二个盒子不占位置了，所以我们给第三个盒子一个上padding占位置，不出现盒子抖动问题
-        //             main.style.paddingTop = middle.offsetHeight+"px";
-        //         }else{
-        //             middle.className = "";
-        //             //清零
-        //             main.style.paddingTop = 0;
-        //         }
-        //     }
-
-
-            function scroll() {  // 开始封装自己的scrollTop
-                if (window.pageYOffset !== undefined) {  // ie9+ 高版本浏览器
-                    // 因为 window.pageYOffset 默认的是  0  所以这里需要判断
-                    return {
-                        left: window.pageXOffset,
-                        top: window.pageYOffset
-                    }
-                }
-                else if (document.compatMode === "CSS1Compat") {    // 标准浏览器   来判断有没有声明DTD
-                    return {
-                        left: document.documentElement.scrollLeft,
-                        top: document.documentElement.scrollTop
-                    }
-                }
-                return {   // 未声明 DTD
-                    left: document.body.scrollLeft,
-                    top: document.body.scrollTop
-                }
-            }
-
-            //缓动动画封装
-            function animate(ele, target) {
+    function animate(ele,target) {
+        clearInterval(ele.timer);
+        ele.timer = setInterval(function () {
+            var step = (target-ele.offsetTop)/10;
+            step = step>0?Math.ceil(step):Math.floor(step);
+            ele.style.top = ele.offsetTop + step + "px";
+            console.log(1);
+            if(Math.abs(target-ele.offsetTop)<Math.abs(step)){
+                ele.style.top = target + "px";
                 clearInterval(ele.timer);
-                ele.timer = setInterval(function () {
-                    var step = (target - ele.offsetLeft) / 10;
-                    step = step > 0 ? Math.ceil(step) : Math.floor(step);
-                    ele.style.left = ele.offsetLeft + step + "px";
-                    console.log(1);
-                    if (Math.abs(target - ele.offsetLeft) < Math.abs(step)) {
-                        ele.style.left = target + "px";
-                        clearInterval(ele.timer);
-                    }
-                }, 18);
+            }
+        },25);
+    }
+    /**
+     * Created by andy on 2015/12/8.
+     */
+    function scroll() {  // 开始封装自己的scrollTop
+        if(window.pageYOffset != null) {  // ie9+ 高版本浏览器
+            // 因为 window.pageYOffset 默认的是  0  所以这里需要判断
+            return {
+                left: window.pageXOffset,
+                top: window.pageYOffset
             }
         }
-
-
-
+        else if(document.compatMode === "CSS1Compat") {    // 标准浏览器   来判断有没有声明DTD
+            return {
+                left: document.documentElement.scrollLeft,
+                top: document.documentElement.scrollTop
+            }
+        }
+        return {   // 未声明 DTD
+            left: document.body.scrollLeft,
+            top: document.body.scrollTop
+        }
+    }
 
 </script>
 
