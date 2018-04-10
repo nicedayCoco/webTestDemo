@@ -6,48 +6,56 @@
 
 <style type="text/css">
 
-    *{
-        margin: 0;
-        padding: 0;
-    }
+/**{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
 
-    body{
-        background-color: black;
-    }
+    /*img {*/
+        /*vertical-align: top;*/
+    /*}*/
 
-    .box {
-        width: 800px;
-        height: 42px;
-        background: #fff url("images/wifi.png") right center no-repeat;
-        margin: 200px auto;
-        border-radius: 8px;
-        position: relative;
-    }
+    /*.main {*/
+        /*margin: 0 auto;*/
+        /*width: 1000px;*/
+        /*margin-top: 10px;*/
+    /*}*/
 
-    ul {
-        list-style: none;
-        position: absolute;
-    }
+    /*#Q-nav1 {*/
+        /*overflow: hidden;*/
+    /*}*/
 
-    li{
-        float: left;
-        width: 83px;
-        height: 42px;
-        text-align: center;
-        font: 500 16px/42px "simsun";
-        cursor: pointer;
-    }
+    /*.fixed {*/
+        /*position: fixed;*/
+        /*top: 0;*/
+        /*left: 0;*/
+    /*}*/
 
-    span {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 83px;
-        height: 42px;
-        background: url("images/cloud.gif") no-repeat;
-    }
+* {
+    margin: 0;
+    padding: 0
+}
 
+img {
+    vertical-align: top;
+}
 
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 10px;
+
+}
+
+#Q-nav1 {
+    overflow: hidden;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 </style>
 
 
@@ -55,73 +63,129 @@
 
 <body>
 
-<div class="box"><span></span>
-    <ul>
-        <li>123</li>
-        <li>456</li>
-        <li>789</li>
-        <li>123</li>
-        <li>123</li>
-        <li>123</li>
-        <li>123</li>
-        <li>123</li>
-    </ul>
+<div class="top" id="top">
+    <img src="images/top.png" alt="">
+</div>
+<div id="Q-nav1">
+    <img src="images/nav.png" alt="">
+</div>
+<div class="main" id="main">
+    <img src="images/main.png" alt="">
 </div>
 
 
-<script>
+<!--<div class="top" id="top">-->
+    <!--<img src="images/top.png" alt=""/>-->
+<!--</div>-->
+<!--<div id="Q-nav1">-->
+    <!--<img src="images/nav.png" alt=""/>-->
+<!--</div>-->
+<!--<div class="main" id="main">-->
+    <!--<img src="images/main.png" alt=""/>-->
+<!--</div>-->
 
+
+<script>
     window.onload = function () {
 
-        var liArr = document.getElementsByTagName("li");
-        var span = document.getElementsByTagName("span")[0];
 
-        var liWidth = liArr[0].offsetWidth;
+        // var topDiv = document.getElementById("top");
+        // var height = topDiv.offsetHeight;
+        // var middle = document.getElementById("Q-nav1");
+        // var main = document.getElementById("main");
 
-        var count = 0;
 
+        var topDiv = document.getElementById("top");
+        var height = topDiv.offsetHeight;
+        var middle = document.getElementById("Q-nav1");
+        var main = document.getElementById("main");
 
-        for (var i=0;i<liArr.length;i++){
+        window.onscroll = function () {
 
-            liArr[i].index = i;
+            if (scroll().top > height) {
 
-            liArr[i].onmouseover = function () {
+                middle.className += " fixed";
+                main.style.paddingTop = middle.offsetHeight+"px";
 
-                animate(span,this.index*liWidth);
-                // count = this.index;
-                // animate(span,count*l-=Width);
-
-            }
-
-            liArr[i].onmouseout = function () {
-                animate(span,count*liWidth);
-
-            }
-
-            liArr[i].onclick = function () {
-                count = this.index;
-                animate(span,count*liWidth);
+            } else {
+                middle.className = "";
+                main.style.paddingTop = 0;
             }
 
         }
 
+        // window.onscroll = function () {
+        //     //2.判断 ，被卷曲的头部的大小
+        //     if(scroll().top > height){
+        //         //3.满足条件添加类，否则删除类
+        //         middle.className += " fixed";
+        //         //第二个盒子不占位置了，所以我们给第三个盒子一个上padding占位置，不出现盒子抖动问题
+        //         main.style.paddingTop = middle.offsetHeight+"px";
+        //     }else{
+        //         middle.className = "";
+        //         //清零
+        //         main.style.paddingTop = 0;
+        //     }
+        // }
 
-        function animate(ele,target) {
-            clearInterval(ele.timer);
-            ele.timer = setInterval(function () {
-                var step = (target - ele.offsetLeft)/10;
-                step = step>0?Math.ceil(step):Math.floor(step);
-                ele.style.left = ele.offsetLeft + step + "px";
-                if(Math.abs(target - ele.offsetLeft)<Math.abs(step)){
-                    ele.style.left = target + "px";
-                    clearInterval(ele.timer);
+
+        // //     1.老三步。
+        //     var topDiv = document.getElementById("top");
+        //     var height = topDiv.offsetHeight;
+        //     var middle = document.getElementById("Q-nav1");
+        //     var main = document.getElementById("main");
+        //
+        //     window.onscroll = function () {
+        //         //2.判断 ，被卷曲的头部的大小
+        //         if(scroll().top > height){
+        //             //3.满足条件添加类，否则删除类
+        //             middle.className += " fixed";
+        //             //第二个盒子不占位置了，所以我们给第三个盒子一个上padding占位置，不出现盒子抖动问题
+        //             main.style.paddingTop = middle.offsetHeight+"px";
+        //         }else{
+        //             middle.className = "";
+        //             //清零
+        //             main.style.paddingTop = 0;
+        //         }
+        //     }
+
+
+            function scroll() {  // 开始封装自己的scrollTop
+                if (window.pageYOffset !== undefined) {  // ie9+ 高版本浏览器
+                    // 因为 window.pageYOffset 默认的是  0  所以这里需要判断
+                    return {
+                        left: window.pageXOffset,
+                        top: window.pageYOffset
+                    }
                 }
-            },18);
+                else if (document.compatMode === "CSS1Compat") {    // 标准浏览器   来判断有没有声明DTD
+                    return {
+                        left: document.documentElement.scrollLeft,
+                        top: document.documentElement.scrollTop
+                    }
+                }
+                return {   // 未声明 DTD
+                    left: document.body.scrollLeft,
+                    top: document.body.scrollTop
+                }
+            }
 
-
+            //缓动动画封装
+            function animate(ele, target) {
+                clearInterval(ele.timer);
+                ele.timer = setInterval(function () {
+                    var step = (target - ele.offsetLeft) / 10;
+                    step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                    ele.style.left = ele.offsetLeft + step + "px";
+                    console.log(1);
+                    if (Math.abs(target - ele.offsetLeft) < Math.abs(step)) {
+                        ele.style.left = target + "px";
+                        clearInterval(ele.timer);
+                    }
+                }, 18);
+            }
         }
 
-    }
 
 
 
