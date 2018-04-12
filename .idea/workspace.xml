@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4fcb88-fb7e-4653-80b6-382b2bf36ff2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/animate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/0001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/放大镜" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/放大镜1.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/鼠标在盒子中的坐标.html" afterPath="$PROJECT_DIR$/鼠标在盒子中的坐标.html" />
+      <change beforePath="$PROJECT_DIR$/放大镜" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="放大镜" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/放大镜">
+      <file leaf-file-name="放大镜1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/放大镜1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="469">
+              <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -114,6 +111,7 @@
         <option value="$PROJECT_DIR$/鼠标跟随.html" />
         <option value="$PROJECT_DIR$/鼠标在盒子中的坐标.html" />
         <option value="$PROJECT_DIR$/放大镜" />
+        <option value="$PROJECT_DIR$/放大镜1.html" />
       </list>
     </option>
   </component>
@@ -124,10 +122,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="545" />
-    <option name="y" value="43" />
-    <option name="width" value="1328" />
-    <option name="height" value="880" />
+    <option name="x" value="937" />
+    <option name="y" value="23" />
+    <option name="width" value="951" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,22 +204,22 @@
       <workItem from="1522313575963" duration="9990000" />
       <workItem from="1522461755735" duration="22375000" />
       <workItem from="1523153787090" duration="22890000" />
-      <workItem from="1523435036874" duration="2956000" />
+      <workItem from="1523435036874" duration="5931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95296000" />
+    <option name="totallyTimeSpent" value="98271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="545" y="43" width="1328" height="880" extended-state="0" />
+    <frame x="937" y="23" width="951" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28539157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2723449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.51054215" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.48945785" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.51209253" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.48790747" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,8 +513,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/放大镜">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="341">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/放大镜1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>
