@@ -88,7 +88,7 @@
             hide(big);
         }
 
-        small.onmousemove = function () {
+        small.onmousemove = function (event) {
 
             event = event || window.event;
 
@@ -96,7 +96,35 @@
             var pagey = event.pageY || scroll().top + event.clientY;
 
             var x = pagex - box.offsetLeft - mask.offsetWidth/2;
-            var y = pagey
+            var y = pagey - box.offsetTop - mask.offsetHeight/2;
+
+            if(x<0){
+                x=0;
+            }
+
+            if(x>small.offsetWidth-mask.offsetWidth){
+                x = small.offsetWidth-mask.offsetWidth;
+            }
+
+            if(y<0){
+                y=0;
+            }
+
+            if(y>small.offsetHeight-mask.offsetHeight){
+                y = small.offsetHeight-mask.offsetHeight;
+            }
+
+            mask.style.left = x + "px";
+            mask.style.top = y + "px";
+
+            var bili = bigImg.offsetWidth/small.offsetWidth;
+
+            var xx = bili*x;
+            var yy = bili*y;
+
+            bigImg.style.marginTop = -yy+"px";
+            bigImg.style.marginLeft = -xx+"px";
+
 
         }
 
