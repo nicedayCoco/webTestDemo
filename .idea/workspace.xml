@@ -2,7 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4fcb88-fb7e-4653-80b6-382b2bf36ff2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/放大镜1.html" afterPath="$PROJECT_DIR$/放大镜1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/360开机.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/b.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/t.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery1.0.0.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/手风琴.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/拖动.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/css/css.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/next_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/prev.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/prev_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/js/jquery1.0.0.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/js/js.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/滚动条.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/缓动框架-透明度.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/缓动框架封装.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/images/0001.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/001.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/1.jpg" afterPath="$PROJECT_DIR$/images/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/images/2.jpg" afterPath="$PROJECT_DIR$/images/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/images/3.jpg" afterPath="$PROJECT_DIR$/images/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/images/4.jpg" afterPath="$PROJECT_DIR$/images/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/images/5.jpg" afterPath="$PROJECT_DIR$/images/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/images/Top.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/cloud.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/main.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/nav.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/wifi.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,77 +57,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="103" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="放大镜1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/放大镜1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="鼠标跟随.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/鼠标跟随.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="鼠标在盒子中的坐标.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/鼠标在盒子中的坐标.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animate.js">
+      <file leaf-file-name="360开机.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/360开机.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="事件对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/事件对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wifi.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/wifi.png">
+      <file leaf-file-name="b.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/b.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/cloud.gif">
+      <file leaf-file-name="t.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/t.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery1.0.0.1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery1.0.0.1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="缓动框架-透明度.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/缓动框架-透明度.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/旋转轮播/css/css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/旋转轮播/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/旋转轮播/js/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -99,6 +140,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prev</find>
+      <find>arrow</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -110,6 +157,16 @@
         <option value="$PROJECT_DIR$/鼠标在盒子中的坐标.html" />
         <option value="$PROJECT_DIR$/放大镜" />
         <option value="$PROJECT_DIR$/放大镜1.html" />
+        <option value="$PROJECT_DIR$/拖动.html" />
+        <option value="$PROJECT_DIR$/滚动条.html" />
+        <option value="$PROJECT_DIR$/client.html" />
+        <option value="$PROJECT_DIR$/缓动框架封装.html" />
+        <option value="$PROJECT_DIR$/手风琴.html" />
+        <option value="$PROJECT_DIR$/360开机.html" />
+        <option value="$PROJECT_DIR$/缓动框架-透明度.html" />
+        <option value="$PROJECT_DIR$/旋转轮播/css/css.css" />
+        <option value="$PROJECT_DIR$/旋转轮播/js/js.js" />
+        <option value="$PROJECT_DIR$/旋转轮播/demo.html" />
       </list>
     </option>
   </component>
@@ -120,10 +177,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="681" />
-    <option name="y" value="35" />
-    <option name="width" value="1063" />
-    <option name="height" value="901" />
+    <option name="x" value="914" />
+    <option name="y" value="261" />
+    <option name="width" value="1060" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,6 +201,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,11 +209,33 @@
               <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +248,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/旋转轮播" />
+      <recent name="$PROJECT_DIR$/旋转轮播/js" />
+      <recent name="$PROJECT_DIR$/旋转轮播/images" />
+      <recent name="$PROJECT_DIR$/旋转轮播/css" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
@@ -202,27 +285,31 @@
       <workItem from="1522313575963" duration="9990000" />
       <workItem from="1522461755735" duration="22375000" />
       <workItem from="1523153787090" duration="22890000" />
-      <workItem from="1523435036874" duration="9502000" />
+      <workItem from="1523435036874" duration="20901000" />
+      <workItem from="1523863043058" duration="11081000" />
+      <workItem from="1523949981719" duration="2927000" />
+      <workItem from="1524036149956" duration="14034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101842000" />
+    <option name="totallyTimeSpent" value="141283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="681" y="35" width="1063" height="901" extended-state="0" />
+    <frame x="914" y="261" width="1060" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17497648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20849057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5108184" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.48918155" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5028302" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49716982" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.47830188" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -243,91 +330,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/wifi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cloud.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/wifi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cloud.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/wifi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cloud.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -354,21 +356,12 @@
     <entry file="file://$PROJECT_DIR$/images/01.jpg" />
     <entry file="file://$PROJECT_DIR$/images/04.jpg" />
     <entry file="file://$PROJECT_DIR$/images/05.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/cloud.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/wifi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/cloud.gif" />
+    <entry file="file://$PROJECT_DIR$/images/wifi.png" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="124" column="56" lean-forward="false" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -398,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -406,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -414,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -422,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,25 +436,57 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/03.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/02.jpg" />
     <entry file="file://$PROJECT_DIR$/images/01.jpg" />
     <entry file="file://$PROJECT_DIR$/images/04.jpg" />
     <entry file="file://$PROJECT_DIR$/images/05.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/cloud.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/images/cloud.gif" />
+    <entry file="file://$PROJECT_DIR$/images/wifi.png" />
+    <entry file="file://$PROJECT_DIR$/animate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/wifi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="103" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/放大镜" />
+    <entry file="file://$PROJECT_DIR$/拖动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/放大镜1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/鼠标在盒子中的坐标.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/滚动条.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/事件对象.html">
@@ -479,48 +499,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/鼠标跟随.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="918">
           <caret line="51" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/鼠标在盒子中的坐标.html">
+    <entry file="file://$PROJECT_DIR$/缓动框架封装.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="756">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate.js">
+    <entry file="file://$PROJECT_DIR$/手风琴.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/b.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/t.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/360开机.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/jquery1.0.0.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="103" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/放大镜">
+    <entry file="file://$PROJECT_DIR$/缓动框架-透明度.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="166">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/放大镜1.html">
+    <entry file="file://$PROJECT_DIR$/旋转轮播/json.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+        <state relative-caret-position="378">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/旋转轮播/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/旋转轮播/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/旋转轮播/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/旋转轮播/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
