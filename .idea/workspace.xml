@@ -2,48 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4fcb88-fb7e-4653-80b6-382b2bf36ff2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/360开机.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/t.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jquery1.0.0.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/手风琴.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/拖动.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/css/css.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/next.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/next_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/prev.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/prev_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/images/slidepic9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/js/jquery1.0.0.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/旋转轮播/js/js.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/滚动条.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/缓动框架-透明度.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/缓动框架封装.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/error.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/onLoad.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/strong.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/正则表达式.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/images/0001.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/001.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/1.jpg" afterPath="$PROJECT_DIR$/images/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/2.jpg" afterPath="$PROJECT_DIR$/images/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/3.jpg" afterPath="$PROJECT_DIR$/images/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/4.jpg" afterPath="$PROJECT_DIR$/images/4.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/5.jpg" afterPath="$PROJECT_DIR$/images/5.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/Top.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/cloud.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/img.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/main.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/nav.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/wifi.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +24,7 @@
       <file leaf-file-name="360开机.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/360开机.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="936">
               <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding />
             </state>
@@ -84,7 +48,7 @@
       <file leaf-file-name="jquery1.0.0.1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery1.0.0.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="432">
               <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding />
             </state>
@@ -94,7 +58,7 @@
       <file leaf-file-name="缓动框架-透明度.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/缓动框架-透明度.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="558">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
@@ -104,14 +68,14 @@
       <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/旋转轮播/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="918">
               <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/旋转轮播/demo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -121,10 +85,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="正则表达式.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/正则表达式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/旋转轮播/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="882">
               <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding />
             </state>
@@ -167,6 +141,7 @@
         <option value="$PROJECT_DIR$/旋转轮播/css/css.css" />
         <option value="$PROJECT_DIR$/旋转轮播/js/js.js" />
         <option value="$PROJECT_DIR$/旋转轮播/demo.html" />
+        <option value="$PROJECT_DIR$/正则表达式.html" />
       </list>
     </option>
   </component>
@@ -177,10 +152,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="914" />
-    <option name="y" value="261" />
-    <option name="width" value="1060" />
-    <option name="height" value="724" />
+    <option name="x" value="485" />
+    <option name="y" value="23" />
+    <option name="width" value="1365" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -200,8 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,30 +185,14 @@
             <path>
               <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webTestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webTestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="旋转轮播" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,6 +204,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/旋转轮播" />
       <recent name="$PROJECT_DIR$/旋转轮播/js" />
@@ -289,21 +249,21 @@
       <workItem from="1523863043058" duration="11081000" />
       <workItem from="1523949981719" duration="2927000" />
       <workItem from="1524036149956" duration="14034000" />
+      <workItem from="1525248692942" duration="7671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141283000" />
+    <option name="totallyTimeSpent" value="148954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="914" y="261" width="1060" height="724" extended-state="0" />
+    <frame x="485" y="23" width="1365" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20849057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16190477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5028302" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49716982" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09375" sideWeight="0.5028302" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.47830188" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -315,6 +275,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49716982" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -330,13 +291,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -446,7 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -462,7 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
           <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2124">
           <caret line="118" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -485,7 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
           <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,7 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="51" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="42" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="41" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,17 +491,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/360开机.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery1.0.0.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="432">
           <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding />
         </state>
@@ -565,31 +501,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/缓动框架-透明度.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
+        <state relative-caret-position="558">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/旋转轮播/json.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/旋转轮播/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/旋转轮播/json.txt" />
+    <entry file="file://$PROJECT_DIR$/旋转轮播/js/index.js" />
     <entry file="file://$PROJECT_DIR$/旋转轮播/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="918">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
@@ -597,8 +519,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/旋转轮播/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="882">
           <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/360开机.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -607,6 +537,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding />
         </state>
       </provider>
